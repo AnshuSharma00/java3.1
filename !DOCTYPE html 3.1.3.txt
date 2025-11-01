@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Application Home</title>
+</head>
+<body>
+    <h1>Welcome to the Servlet & JSP Demo Application</h1>
+    <ul>
+        <li><a href="login.html">User Login</a></li>
+        <li><a href="employee.html">Employee Records</a></li>
+        <li><a href="attendance.jsp">Student Attendance Portal</a></li>
+    </ul>
+</body>
+</html>

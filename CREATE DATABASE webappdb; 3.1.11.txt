@@ -1,0 +1,17 @@
+CREATE DATABASE webappdb;
+USE webappdb;
+
+CREATE TABLE Employee (
+  EmpID INT PRIMARY KEY,
+  Name VARCHAR(50),
+  Salary DOUBLE
+);
+
+INSERT INTO Employee VALUES (1, 'Aman', 45000), (2, 'Priya', 52000), (3, 'Rahul', 60000);
+
+CREATE TABLE Attendance (
+  ID INT AUTO_INCREMENT PRIMARY KEY,
+  StudentID VARCHAR(20),
+  Date DATE,
+  Status VARCHAR(10)
+);
